@@ -34,4 +34,7 @@ SampleApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Load i18 locales
+  config.i18n.available_locales = [:en, :ru]
 end
